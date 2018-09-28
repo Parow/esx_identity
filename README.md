@@ -40,6 +40,7 @@ Notice:
 
 Credits:
 `Script Created By: ArkSeyonet @Ark`
+`Edited By: Parow`
 
 Licensing:
 `This script uses GNU GPLv3`
