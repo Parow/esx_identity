@@ -1,0 +1,65 @@
+/*custom font*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+    font-family: sans-serif;
+    overflow: hidden;
+    display: none;
+}
+
+#cursor {
+    position: absolute;
+    z-index: 999999;
+    display: none;
+}
+
+.dialog {
+	width: 400px;
+	margin: 50px auto;
+    text-align: center;
+    border-radius: 19px;    
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    position: relative;
+    background: linear-gradient(rgba(231, 76, 60, 0.95), rgba(192, 57, 43, 0.95));
+	padding: 20px 30px;
+
+}
+
+form {
+    margin: 0;
+}
+
+input[type=text] {
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+    width: 100%;
+    border-radius: 15px;    
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+button {
+	width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+button:hover{
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+
+h1 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 20px;
+}
